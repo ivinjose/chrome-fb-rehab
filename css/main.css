@@ -1,0 +1,55 @@
+.title{
+    color: #444;
+    font: 28px helvetica;
+    margin-top: 70px;
+    text-align: center;
+}
+
+.table{
+    display: table;
+    margin: 0 auto;
+}
+
+.options{
+    display: table;
+    margin: 60px auto;
+    overflow: hidden;
+    width: 1026px;
+    -webkit-padding-start: 0px;
+}
+
+.options > li{
+    float: left;
+    list-style-type: none;
+    margin: 0 20px 40px 20px;
+}
+
+.option{
+    background-color: #f7f7f7;
+    border: 1px solid #f2f2f2;
+    display: block;
+    height: 64px;
+    overflow: hidden;
+    padding: 10px;
+    text-decoration: none;
+    width: 280px;
+}
+
+.option:hover{
+    border-color: #e7e7e7;
+}
+
+.option-icon{
+    float: left;
+    margin-right: 8px;
+    max-width: 64px;
+}
+
+.option-label, .option-title{
+    color: #444;
+}
+
+.option-title{
+    font-weight: bold;
+    margin-bottom: 2px;
+}

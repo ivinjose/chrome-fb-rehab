@@ -1,0 +1,16 @@
+{
+    "manifest_version": 2,
+    "name": "FB rehab",
+    "version": "1.0",
+    "description": "Save yourself from the FB addiction!",
+    "permissions": [
+        "tabs"
+    ],
+    "browser_action": {
+        "default_icon": "icons/logo.png"
+    },
+    "background":{
+        "scripts": ["background.js"],
+        "persistent": false
+    }
+}
